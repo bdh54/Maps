@@ -1,0 +1,69 @@
+1. Finish Jumble.java.  There are two exercises.  Verify that you
+   cannot unscramble zagboe using words.txt (the dictionary file from
+   last week).
+
+   I put a bigger dictionary file called dict.txt into prog06.  Verify
+   that Jumble can unscramble zagboe using dict.
+
+
+2. In Jumble main, switch from TreeMap to PDMap.  This uses prog02
+   ArrayBasedPD to implement the map.  Try reading in dict.txt.  Is it
+   taking a long time?
+
+   Kill it! (Click the red square.)
+
+   Now edit PDMap.java so it uses your SortedPD instead of
+   ArrayBasedPD.  Does it get farther before you lose your patience?
+
+
+3. Implement find in LinkedMap.java.  Use TestLinkedMap.java to test.
+
+
+4. Implement found in LinkedMap.java.  Use TestLinkedMap to test.
+
+
+5. Implement add in LinkedMap.java.  Use TestLinkedMap to test.
+
+
+6. Finish get.  If the entry is the one you want, return its value.
+
+   Finish put.  If the entry is the one you want, set its value.  What
+   do you return?
+
+   Finish implementing Iter.
+
+   Test by running LinkedMap (main).  Correct output is in
+   linkedmap-noremove.txt.
+
+
+7. In Jumble.main, switch to LinkedMap.  How does it compare in speed
+   on words.txt and dict.txt to ArrayBasedPD and SortedPD?
+
+
+HOMEWORK
+
+8. Implement remove(Entry entry).  Add tests to TestLinkedMap main to
+   test it.
+
+
+9. Implement remove(Object keyAsObject).  Run LinkedMap main.
+   Correct output in linkedmap.txt.
+
+   In Jumble, remove each key after you add it, check that is is not
+   there (print a warning if it IS still there), and then add it back
+   again.  Test on words.txt.
+
+
+10. In SkipMap, follow the instructions to finish find and add.  See
+   skipmap-noremove.txt for the correct output from main.
+
+   Switch to SkipMap in Jumble and test on dict and comment out your
+   extra code from #8.  Faster?
+
+
+11. Implement SkipMap remove.  See skipmap.txt.  Also test by
+   uncommenting the extra code.
+
+
+
+
